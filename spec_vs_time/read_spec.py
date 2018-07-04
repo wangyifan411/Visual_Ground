@@ -32,6 +32,9 @@ import plotly as py
 import plotly.graph_objs as go
 import cufflinks as cf
 
+url  = py.offline.plot([{'x': data['t'], 'y': data[col], 'name': col
+                  }  for col in data.columns[1:-1]], filename='spec_test_2.html')
+
 
 '''
 t_vec = data['t']
@@ -43,4 +46,4 @@ graphdata = [go.Scatter(x = t_vec, y = data['Pd1*'], name = 'Pd1*'),
              go.Scatter(x = t_vec, y = data['Pd5*'], name = 'Pd5*'),
              ]
 url = py.offline.plot(graphdata, filename = 'spec_test_1')
-
+'''
