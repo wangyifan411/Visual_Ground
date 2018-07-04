@@ -30,7 +30,10 @@ data = pd.read_csv(csv_dir, sep = '\t')
 
 import plotly as py
 import plotly.graph_objs as go
+import cufflinks as cf
 
+
+'''
 t_vec = data['t']
 graphdata = [go.Scatter(x = t_vec, y = data['Pd1*'], name = 'Pd1*'),
              go.Scatter(x = t_vec, y = data['Pd2*'], name = 'Pd2*'),
