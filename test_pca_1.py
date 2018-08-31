@@ -22,7 +22,6 @@ df = pd.read_csv(
 df.columns=['sepal_len', 'sepal_wid', 'petal_len', 'petal_wid', 'class']
 df.dropna(how="all", inplace=True) # drops the empty line at file-end
 
-df.tail()
 
 X = df.iloc[:,0:4].values
 y = df.iloc[:,4].values
@@ -108,5 +107,11 @@ with plt.style.context('seaborn-whitegrid'):
     plt.legend(loc='lower center')
     plt.tight_layout()
     plt.show()
+
+#%% Use sk-learn approach
+    
+from sklearn.decomposition import PCA as sklearnPCA
+sklearn_pca = sklearnPCA(n_components=4)
+Y_sklearn = sklearn_pca.fit_transform(X_std)
 
 
