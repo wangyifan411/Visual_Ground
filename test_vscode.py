@@ -8,4 +8,3 @@ print(sys.executable)
 
 name = input("Your_name")
 print("Hello", name)
-
