@@ -1,0 +1,20 @@
+{
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "python.pythonPath": "/Users/wangyifan/anaconda3",
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "git.enableSmartCommit": true,
+    "breadcrumbs.enabled": true,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 1.2,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python.pythonPath" -u $fullFileName
+    },
+}
