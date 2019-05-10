@@ -1,0 +1,29 @@
+{
+    "python.pythonPath": "C:\\Users\\wangyf\\AppData\\Local\\Continuum\\anaconda3\\python.exe",
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "window.zoomLevel": 1.2,
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "psl.stepIn",
+        "psl.stepOut",
+        "psl.stepOver",
+        "psl.sendToHostTerminal"
+    ],
+    "git.enableSmartCommit": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "[plaintext]": {
+        "editor.quickSuggestions": false
+    },
+}
